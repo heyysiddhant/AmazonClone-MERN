@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     margin:0 auto ;
+   max-width: 1500px;
+   padding-bottom: 60px;
+
+}
+
+.home__image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px ;
+    mask-image : linear-gradient(to bottom , rgba(0, 0, 0, 1.0), rgba(0,0,0,0));
+}
+
+.home__container{
+    background-color: rgb(228, 219, 219);
+
+}
+
+
+.home__row{
+display: flex;
+z-index: 1;
+margin: 0 10px;
+
+}

@@ -1,0 +1,32 @@
+.footer{
+    position: fixed;
+    bottom:0;
+    height: 60px;
+    display: flex;
+align-items: center;
+width: 100%;
+background-color:var(--dark-blue);
+color: var(--light-white);
+padding: 20px;
+z-index: 100;
+}
+
+.footer__logo{ width: 100px;
+object-fit: contain;
+margin: 0 20px ;
+margin-top: 18px ;
+}
+
+.footer__text{
+    display: flex;
+    font-size: small;
+}
+.footer__text > a{
+    color: rgb(228, 187, 113);
+    text-decoration: underline;
+    margin: 0 3px;
+}
+.footer__text > a:hover{
+    color: rgb(228, 113, 211);
+
+}

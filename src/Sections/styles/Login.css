@@ -1,0 +1,78 @@
+.login{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login__logo{
+    width: 150px;
+    margin: 20px auto;
+    object-fit: contain;
+}
+
+.login__container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.login__container > h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.login__container > form > h5{
+    margin-bottom: 5px;
+}
+.login__container > form > input{
+    margin-bottom : 10px;
+    height: 30px;
+    width: 98%;
+    padding: 5px;
+}
+
+
+.login__container > form > p{
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+
+.login__container > form > p > input{
+    margin-right : 5px;
+}
+
+.login__container > form  > button , .login__container > button{
+    width: 100%;
+    margin: 7px auto;
+    background: #f0c14b;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+    height: 30px;
+    border: 1px solid;
+    border-color: rgb(236, 236, 135) rgb(236, 236, 71) rgb(228, 228, 10);
+}
+
+.login__container > p {
+    font-size: small;
+    margin: 5px 0;
+
+}
+
+.login__container > button {
+    width: 100%;
+    margin: 7px auto;
+    background: #4b8af0;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+    height: 30px;
+    border: 1px solid;
+    border-color: rgb(236, 236, 135) rgb(236, 236, 71) rgb(228, 228, 10);
+    
+}
